@@ -11,14 +11,12 @@ def predict(*features):
     pred = model.predict(features)[0]
     return "Benign" if pred == 1 else "Malignant"
 
-inputs = [gr.Number(label=feat) for feat in data.feature_names]
+inputs = [gr.Number(label=f) for f in data.feature_names]
 
-app = gr.Interface(
+demo = gr.Interface(
     fn=predict,
     inputs=inputs,
     outputs="text",
-    title="Breast Cancer Prediction (MLflow + ML)",
-    description="Best model selected using MLflow and deployed on Hugging Face"
+    title="Breast Cancer Prediction",
+    description="MLflow trained model deployed on Hugging Face Spaces"
 )
-
-app.launch()
