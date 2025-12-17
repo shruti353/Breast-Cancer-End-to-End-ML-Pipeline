@@ -3,6 +3,7 @@ import joblib
 import numpy as np
 from sklearn.datasets import load_breast_cancer
 
+# Load trained model
 model = joblib.load("breast_cancer_model.pkl")
 data = load_breast_cancer()
 
@@ -13,10 +14,11 @@ def predict(*features):
 
 inputs = [gr.Number(label=f) for f in data.feature_names]
 
-demo = gr.Interface(
+# 🔑 IMPORTANT: variable name MUST be `app`
+app = gr.Interface(
     fn=predict,
     inputs=inputs,
     outputs="text",
     title="Breast Cancer Prediction",
-    description="MLflow trained model deployed on Hugging Face Spaces"
+    description="MLflow-trained sklearn model deployed on Hugging Face Spaces"
 )
