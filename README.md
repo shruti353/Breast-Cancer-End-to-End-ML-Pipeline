@@ -1,12 +1,19 @@
 ---
 title: Breast Cancer Prediction
-emoji: ⚡
+emoji: 🧠
 colorFrom: blue
 colorTo: red
 sdk: gradio
-sdk_version: 6.1.0
+sdk_version: 3.50.2
 app_file: app.py
 pinned: false
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+## Breast Cancer Prediction App
+
+This is a deployed machine learning model using Gradio.
+
+### 🔗 Source Code
+Full end-to-end ML pipeline is available here:
+
+👉 https://github.com/shruti353/Breast-Cancer-End-to-End-ML-Pipeline
