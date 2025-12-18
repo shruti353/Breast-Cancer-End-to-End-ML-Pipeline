@@ -84,17 +84,6 @@ Model monitoring and drift detection
 
 CI/CD for automated retraining and deployment
 
- 
----
-Title: Breast Cancer Prediction
-emoji: 🧠
-colorFrom: blue
-colorTo: red
-sdk: gradio
-sdk_version: 3.50.2
-app_file: app.py
-pinned: false
----
 
 ## Breast Cancer Prediction App
 
