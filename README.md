@@ -82,8 +82,9 @@ Probability-based predictions with confidence scores
 
 Model monitoring and drift detection
 
- ** CI/CD for automated retraining and deployment**
-=======
+CI/CD for automated retraining and deployment
+
+ =======
 ---
 Title: Breast Cancer Prediction
 emoji: 🧠
