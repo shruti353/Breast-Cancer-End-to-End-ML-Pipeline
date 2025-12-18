@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Breast Cancer End-to-End Machine Learning Pipeline
 
 An end-to-end machine learning project demonstrating the complete ML lifecycle —
