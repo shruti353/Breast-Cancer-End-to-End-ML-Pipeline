@@ -6,7 +6,7 @@ from model training and experiment tracking to deployment as a live application.
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 Predict whether a breast tumor is **Benign** or **Malignant** using diagnostic
 features derived from medical imaging data.
 
@@ -14,7 +14,7 @@ This is a binary classification problem with real-world healthcare relevance.
 
 ---
 
-## 🧠 Machine Learning Pipeline
+## Machine Learning Pipeline
 
 1. Data ingestion using the Breast Cancer Wisconsin dataset (sklearn)
 2. Train-test split and preprocessing
@@ -31,7 +31,7 @@ This is a binary classification problem with real-world healthcare relevance.
 
 ---
 
-## 🚀 Live Deployment
+## Live Deployment
 
 The trained model is deployed as an interactive web application:
 
@@ -54,7 +54,7 @@ Users can input feature values and receive real-time predictions.
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 Multiple models were trained and compared
 
@@ -62,7 +62,7 @@ Best model selected based on accuracy
 
 Model tested on unseen data before deployment
 
-## 📌 Key Learnings
+##  Key Learnings
 
 End-to-end ML workflow implementation
 
@@ -74,7 +74,7 @@ Deployment of ML models
 
 Debugging real-world MLOps issues
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Feature selection to reduce input dimensionality
 
